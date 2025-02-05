@@ -1,6 +1,6 @@
-import { propertyChange, ExecuteRule, Initialize, RemoveItem, SubmitSuccess, CustomEvent, SubmitError, SubmitFailure, Submit, Save, Valid, Invalid, RemoveInstance, AddInstance, Reset, AddItem, Click, Change, FormLoad, FieldChanged, ValidationComplete } from './afb-events.js';
-import Formula from '@adobe/json-formula';
-import { parseDefaultDate, datetimeToNumber, format, parseDateSkeleton, numberToDatetime, formatDate, parseDate } from '@aemforms/af-formatters';
+import { propertyChange, ExecuteRule, Initialize, RemoveItem, Change, FormLoad, FieldChanged, ValidationComplete, Valid, Invalid, SubmitSuccess, CustomEvent, SubmitError, SubmitFailure, Submit, Save, Reset, RemoveInstance, AddInstance, AddItem, Click } from './afb-events.js';
+import Formula from '../formula/index.js';
+import { format, parseDefaultDate, datetimeToNumber, parseDateSkeleton, numberToDatetime, formatDate, parseDate } from './afb-formatters.min.js';
 
 function __decorate(decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
