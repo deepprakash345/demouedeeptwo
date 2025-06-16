@@ -17,7 +17,7 @@ User-agent: Googlebot-Mobile
 Disallow: /
 
 User-agent: Gemini
-Allow: /submit*
+Allow: /submi*
 
 User-agent: *
 Disallow: /
